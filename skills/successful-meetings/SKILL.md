@@ -20,7 +20,7 @@ Pick the mode from what the user asked for. If the request spans two (prep now, 
 
 ## Related skills
 
-If these skills are installed, hand off rather than duplicate: `the-3ps-framework` for weekly status updates, `silent-meetings` for read-first meeting format, `4-blocker-business-reviews` for executive reviews, `weekly-schedule-of-meetings` for designing a team's full meeting calendar. If they are not installed, cover the need with this skill's general procedure and keep going.
+If these skills are installed, hand off rather than duplicate: `3ps-framework` for weekly status updates, `silent-meetings` for read-first meeting format, `4-blocker-business-reviews` for executive reviews, `weekly-schedule-of-meetings` for designing a team's full meeting calendar. If they are not installed, cover the need with this skill's general procedure and keep going. `3ps-framework` sets `disable-model-invocation`, so it will not pick itself up: tell the user to name it, as in use the 3ps-framework skill, rather than handing off to it silently.
 
 ## Inputs and assumptions
 

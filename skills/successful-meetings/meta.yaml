@@ -3,16 +3,79 @@ title: Successful Meetings
 module: 01-what-to-implement-first
 tier: free
 skill_ready: true
-status: testing
-version: 1.0.0
+status: shipped
+version: 1.0.1
 sku: free
 invocation_examples:
   - "Prep a 45 minute decision meeting on the Q4 loyalty relaunch with growth and engineering"
   - "Turn these raw notes into a recap with action items"
   - "Audit my team's recurring meetings, here is the list"
+# RECONSTRUCTED, not the originals. This skill shipped at 1.0.0 without recording its
+# test prompts, and the prompts actually run against it exist only in a chat transcript
+# that is not in this repository. These were rebuilt at 1.0.1 from the invocation
+# examples above and from RUNBOOK.md section 4 step 6, which records this skill's near
+# miss as "redesign my whole meeting calendar" belonging to weekly-schedule-of-meetings.
+# Treat the passes_when bars as the standard going forward, not as a transcript of what
+# a past run did. Anything re-run against them is being scored for the first time.
+test_prompts:
+  - kind: happy path
+    prompt: |
+      Prep a 45 minute decision meeting on the Q4 loyalty relaunch. Growth and
+      engineering both need to be there, and we have to come out of it with a go or
+      no-go on the launch date.
+    passes_when: |
+      Triggers on meeting-prep phrasing without the skill being named, and runs Mode A.
+      Produces a Meeting Packet with the objective stated in one sentence as the
+      decision the meeting exists to produce, not as a topic. An agenda with no stated
+      objective fails this prompt outright.
+      Every attendee carries a role, and nobody appears as an audience member.
+      The timebox is cut below the 45 minutes asked for, or the reason for keeping all
+      45 is stated. Attendees, items, and minutes are never added to fill space.
+      A send-by date for the agenda and materials is at least 24 hours before start.
+      Three to five discussion questions are matched to this meeting's job.
+      No invented meeting-productivity statistic appears anywhere.
+      No em dashes, en dashes, curly quotes, or ellipsis characters in the reply.
+  - kind: messy input
+    prompt: |
+      Here are my notes from the pricing sync, turn them into a recap. Half of it is
+      shorthand and I did not write down who agreed to what.
+
+      - talked thru the tier changes, general agreement we go to 3 tiers not 4
+      - someone is pulling the churn numbers by tier, cant remember who
+      - legal needs to look at the grandfathering language before anything ships
+      - we did NOT decide on the annual discount, still open
+      - marketing wants 6 weeks lead time, eng thinks the migration is 3 weeks
+      - action: update the pricing page. no date discussed
+      - Priya raised the enterprise contract question, parked it
+    passes_when: |
+      Runs Mode B and produces a Follow-Up Note, not a summary of the conversation.
+      Decisions are written as commitments (three tiers, not four), and the annual
+      discount is recorded as still open rather than quietly resolved.
+      Every action item carries an owner and a date. Where the notes named neither, the
+      field carries a visible placeholder and the gap is surfaced at the top of the
+      note. An action dropped for being incomplete is a failure, and so is a guessed
+      owner: the churn numbers action has no name in the input and must not acquire one.
+      Priya is named on the enterprise question, because the notes named her.
+      The summary stays at three sentences or fewer.
+      No em dashes, en dashes, curly quotes, or ellipsis characters in the reply.
+  - kind: near miss
+    prompt: |
+      I want to redesign my whole meeting calendar. Everything I run is broken, the
+      recurring stuff especially. Where do I start?
+    passes_when: |
+      Recognizes that redesigning a full meeting calendar belongs to
+      weekly-schedule-of-meetings, not to this skill, and says so rather than quietly
+      producing a calendar design.
+      Names the handoff and, if that skill is not installed, offers the piece this skill
+      genuinely owns: the Meeting Audit over the recurring set, which scores each
+      meeting against the four tenets and returns a verdict per meeting. Offering the
+      audit is the pass; silently designing the whole calendar is the failure.
+      Does not invent a calendar structure for meetings it has not been told about.
+      No em dashes, en dashes, curly quotes, or ellipsis characters in the reply.
 sources:
   - "Effective_Meetings.docx (original playbook doc: Grove quote, taxonomy, four tenets)"
   - "Effective_Meetings_Script.docx (narration rewrite: agenda format, follow-up format, question bank)"
   - "Successful_Meetings_Script.docx (course script: pitfalls, case study, culture rollout)"
 changelog:
+  - "1.0.1: corrected the 3ps handoff to the skill name and its explicit invocation; added reconstructed test prompts"
   - "1.0.0: initial conversion from course sources"
