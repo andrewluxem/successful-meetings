@@ -1,0 +1,10 @@
+{
+  "name": "successful-meetings",
+  "version": "1.0.0",
+  "description": "Meeting prep, follow-up notes, and meeting audits. Three artifacts: a Meeting Packet, a Follow-Up Note with every action owned and dated, and a Meeting Audit with keep, fix, shrink, or kill verdicts. Explicit-invocation only: no self-firing, no remote fetch, no auto-update.",
+  "author": { "name": "Andrew Luxem" },
+  "homepage": "https://github.com/andrewluxem/successful-meetings",
+  "repository": "https://github.com/andrewluxem/successful-meetings",
+  "license": "MIT",
+  "keywords": ["meetings", "agenda", "meeting-notes", "management", "productivity"]
+}

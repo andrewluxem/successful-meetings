@@ -1,0 +1,18 @@
+slug: successful-meetings
+title: Successful Meetings
+module: 01-what-to-implement-first
+tier: free
+skill_ready: true
+status: testing
+version: 1.0.0
+sku: free
+invocation_examples:
+  - "Prep a 45 minute decision meeting on the Q4 loyalty relaunch with growth and engineering"
+  - "Turn these raw notes into a recap with action items"
+  - "Audit my team's recurring meetings, here is the list"
+sources:
+  - "Effective_Meetings.docx (original playbook doc: Grove quote, taxonomy, four tenets)"
+  - "Effective_Meetings_Script.docx (narration rewrite: agenda format, follow-up format, question bank)"
+  - "Successful_Meetings_Script.docx (course script: pitfalls, case study, culture rollout)"
+changelog:
+  - "1.0.0: initial conversion from course sources"

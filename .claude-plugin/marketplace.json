@@ -1,0 +1,14 @@
+{
+  "name": "successful-meetings",
+  "owner": { "name": "Andrew Luxem" },
+  "description": "successful-meetings, turn meetings into decisions and owned follow-ups",
+  "plugins": [
+    {
+      "name": "successful-meetings",
+      "source": "./",
+      "description": "Three modes ending in a working document: Meeting Packet, Follow-Up Note, Meeting Audit. Explicit-invocation only, version-pinned, no auto-update.",
+      "category": "productivity",
+      "tags": ["meetings", "agenda", "meeting-notes", "management"]
+    }
+  ]
+}
