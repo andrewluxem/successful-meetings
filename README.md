@@ -10,7 +10,7 @@ Three artifacts:
 
 It executes the [Successful Meetings playbook](https://andrewluxem.com/playbooks/successful-meetings) from andrewluxem.com. The playbook page teaches the framework. This skill runs it.
 
-**Explicit invocation only: no self-firing, no remote fetch, no auto-update.** It makes no network calls, reads nothing outside its own folder, never edits your global agent config, and never updates itself in place. The whole thing is one `SKILL.md` you can read in five minutes, plus templates and reference files it loads only when a step needs them.
+**Static by construction: no network calls, no remote fetch, no auto-update, nothing scheduled, no background behavior. Model-invocable by design: an agent may pick it up when you ask for meeting work, and naming the skill is the reliable path.** It makes no network calls, reads nothing outside its own folder, never edits your global agent config, and never updates itself in place. The whole thing is one `SKILL.md` you can read in five minutes, plus templates and reference files it loads only when a step needs them.
 
 ## The loop
 

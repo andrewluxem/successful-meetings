@@ -6,7 +6,7 @@
     {
       "name": "successful-meetings",
       "source": "./",
-      "description": "Three modes ending in a working document: Meeting Packet, Follow-Up Note, Meeting Audit. Explicit-invocation only, version-pinned, no auto-update.",
+      "description": "Three modes ending in a working document: Meeting Packet, Follow-Up Note, Meeting Audit. Static: no network calls, no remote fetch, no auto-update. Version-pinned.",
       "category": "productivity",
       "tags": ["meetings", "agenda", "meeting-notes", "management"]
     }
