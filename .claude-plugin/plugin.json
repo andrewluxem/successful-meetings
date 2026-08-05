@@ -1,6 +1,6 @@
 {
   "name": "successful-meetings",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Meeting prep, follow-up notes, and meeting audits. Three artifacts: a Meeting Packet, a Follow-Up Note with every action owned and dated, and a Meeting Audit with keep, fix, shrink, or kill verdicts. Static: no network calls, no remote fetch, no auto-update.",
   "author": {
     "name": "Andrew Luxem"
