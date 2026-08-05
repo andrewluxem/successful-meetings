@@ -74,6 +74,10 @@ Audit my team's recurring meetings, here is the list
 
 Naming the skill is the reliable path: `use the successful-meetings skill to prep this meeting`. It has no background behavior and nothing scheduled, so nothing happens until a request goes to it.
 
+## Where it hands off
+
+`3ps-framework` when the update is a person's or a team's week in Progress, Plans, and Problems. `weekly-status-updates` when the update is one project's position against its plan and its date. `silent-meetings` when the meeting should be read first rather than presented. `4-blocker-business-reviews` for the executive review document. `weekly-schedule-of-meetings` for designing the whole week these meetings sit in, rather than any one of them.
+
 ## Iterating
 
 The skill is the folder [`skills/successful-meetings/`](skills/successful-meetings/):

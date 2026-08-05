@@ -20,7 +20,7 @@ Pick the mode from what the user asked for. If the request spans two (prep now, 
 
 ## Related skills
 
-If these skills are installed, hand off rather than duplicate: `3ps-framework` for weekly status updates, `silent-meetings` for read-first meeting format, `4-blocker-business-reviews` for executive reviews, `weekly-schedule-of-meetings` for designing a team's full meeting calendar. If they are not installed, cover the need with this skill's general procedure and keep going.
+If these skills are installed, hand off rather than duplicate: `3ps-framework` when the update is a person's or a team's week in Progress, Plans, and Problems, `weekly-status-updates` when the update is one project's position against its plan and its date, `silent-meetings` for read-first meeting format, `4-blocker-business-reviews` for executive reviews, `weekly-schedule-of-meetings` for designing a team's full meeting calendar. If they are not installed, cover the need with this skill's general procedure and keep going.
 
 ## Inputs and assumptions
 
