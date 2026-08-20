@@ -8,7 +8,7 @@ Three artifacts:
 - **Follow-Up Note**: decisions written as decisions, a three sentence summary, and action items where every single one has an owner and a due date. Missing owners get surfaced at the top as gaps, never dropped quietly.
 - **Meeting Audit**: your recurring meetings scored against four tenets, each with a verdict (keep, fix, shrink, make async, or kill) and the hours per week you get back if you apply them.
 
-It executes the [Successful Meetings playbook](https://andrewluxem.com/playbooks/successful-meetings) from andrewluxem.com. The playbook page teaches the framework. This skill runs it.
+It executes the [Successful Meetings playbook](https://www.andrewluxem.com/playbooks/successful-meetings) from andrewluxem.com. The playbook page teaches the framework. This skill runs it.
 
 **Static by construction: no network calls, no remote fetch, no auto-update, nothing scheduled, no background behavior. Model-invocable by design: an agent may pick it up when you ask for meeting work, and naming the skill is the reliable path.** It makes no network calls, reads nothing outside its own folder, never edits your global agent config, and never updates itself in place. The whole thing is one `SKILL.md` you can read in five minutes, plus templates and reference files it loads only when a step needs them.
 
@@ -60,7 +60,7 @@ Then invoke it explicitly: `use the successful-meetings skill to prep this meeti
 
 `plugin.json` carries an explicit `version`. Installing pins that version. It does not silently pull new commits. Taking an update means bumping the version and reinstalling, so the update is a decision rather than a background event.
 
-**As a zip:** the packaged skill is on the playbook page at [andrewluxem.com/playbooks/successful-meetings](https://andrewluxem.com/playbooks/successful-meetings), for platforms that want a folder upload instead of a clone. Same files.
+**As a zip:** the packaged skill is on the playbook page at [andrewluxem.com/playbooks/successful-meetings](https://www.andrewluxem.com/playbooks/successful-meetings), for platforms that want a folder upload instead of a clone. Same files.
 
 Portable by design: it is plain Markdown with no runtime, so it works anywhere a folder of skill files works.
 
@@ -96,3 +96,9 @@ When you change behavior meaningfully, bump `version` in both `.claude-plugin/pl
 MIT, see [`LICENSE`](LICENSE). The skill folder carries the same MIT text in [`skills/successful-meetings/LICENSE.md`](skills/successful-meetings/LICENSE.md), so the whole repo is one license.
 
 The Grove quote is from *High Output Management*. Parkinson's Law, Drucker, and Vanderkam are attributed where they are used in [`references/pitfalls.md`](skills/successful-meetings/references/pitfalls.md).
+
+---
+
+## More playbooks
+
+This skill packages one playbook from the free library at [github.com/andrewluxem/playbooks](https://github.com/andrewluxem/playbooks). Every playbook is free to read, with no email required.
