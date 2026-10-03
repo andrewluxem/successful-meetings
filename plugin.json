@@ -1,0 +1,41 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "successful-meetings",
+  "version": "1.0.3",
+  "description": "Turn meeting notes into follow-up notes with owned, dated action items. Also builds meeting prep packets and audits recurring meetings: keep, fix, shrink, or kill.",
+  "author": {
+    "name": "Some Luck Productions LLC",
+    "url": "https://andrewluxem.com"
+  },
+  "homepage": "https://github.com/andrewluxem/successful-meetings",
+  "repository": "https://github.com/andrewluxem/successful-meetings",
+  "license": "MIT",
+  "extensions": {
+    "com.openai": {
+      "interface": {
+        "displayName": "Successful Meetings",
+        "shortDescription": "Meeting prep, notes, audits",
+        "longDescription": "Treats meetings as work product with a real cost. Paste raw notes or a transcript and get a Follow-Up Note where every decision is recorded and every action item has an owner and a date. Before a meeting, get a Meeting Packet with an objective, a trimmed attendee list, timeboxed agenda, and pre-reads, or a straight answer on whether it should be an email instead. For recurring meetings, the Meeting Audit returns a keep, fix, shrink, or kill verdict for each one. Built from the Successful Meetings playbook at andrewluxem.com. Static skill: no network calls.",
+        "developerName": "Some Luck Productions LLC",
+        "category": "Productivity",
+        "capabilities": [
+          "Meeting follow-up notes with owned, dated action items",
+          "Meeting prep packets and agendas",
+          "Recurring meeting audits: keep, fix, shrink, or kill"
+        ],
+        "websiteURL": "https://github.com/andrewluxem/successful-meetings",
+        "supportURL": "https://github.com/andrewluxem/successful-meetings/issues",
+        "privacyPolicyURL": "https://andrewluxem.com/plugins/privacy",
+        "defaultPrompt": [
+          "Turn these meeting notes into a follow-up note",
+          "Prep me for my 1:1 tomorrow",
+          "Audit my weekly team meeting. Should we keep it?"
+        ],
+        "brandColor": "#1F5F8B",
+        "brandColorDark": "#8CC2E8",
+        "composerIcon": "./assets/icon.png",
+        "logo": "./assets/logo.png"
+      }
+    }
+  }
+}

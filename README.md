@@ -64,6 +64,8 @@ Then invoke it explicitly: `use the successful-meetings skill to prep this meeti
 
 Portable by design: it is plain Markdown with no runtime, so it works anywhere a folder of skill files works.
 
+Also available as a ChatGPT plugin (OpenAI plugin directory, in review).
+
 ## Usage
 
 ```
