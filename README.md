@@ -1,3 +1,5 @@
+<p align="center"><img src="docs/banner.svg" alt="successful-meetings: A portable agent skill for meeting prep, follow-up notes, and meeting audits. Static: no network calls, no remote fetch, no auto-update."></p>
+
 # successful-meetings
 
 A small, static agent skill that turns a meeting into a decision and a set of owned follow-ups. Ask it for one thing and it hands back a working document, not advice about meetings.

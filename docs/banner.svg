@@ -1,0 +1,83 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 300" width="900" height="300" role="img" aria-labelledby="t d">
+<title id="t">successful-meetings</title>
+<desc id="d">Three panels from the repo's example run, with illustrative names and numbers. 1, the ask: decide whether to consolidate three onboarding email series into one, in 60 minutes Thursday with the lifecycle team, engineering, and someone from support. 2, the six prep steps: justify the meeting, classify it (mission-oriented), curate attendees (resolves to four), timebox it (cut to 30), build the agenda, attach the questions (four questions). 3, the packet: Agenda: Onboarding Series Consolidation; Thu Aug 6, 9:00 to 9:30 MT; final 5 min: decisions, owners, dates; 30 minutes, not the 60 you offered.</desc>
+<style>
+.serif{font-family:Georgia,"Times New Roman",serif}
+.sans{font-family:-apple-system,"Segoe UI",Helvetica,Arial,sans-serif}
+.mono{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,"Liberation Mono",monospace}
+.lab{font-size:10px;letter-spacing:1.8px;font-weight:600}
+.cap{font-size:11.5px;fill:#8b9096}
+.hl{fill:none;stroke-width:1.5;opacity:0}
+.h1{animation:h1 12s infinite}
+.h2{animation:h2 12s infinite}
+.h3{animation:h3 12s infinite}
+.r1{animation:r1 12s infinite}
+.r2{animation:r2 12s infinite}
+.rb{animation:rb 12s infinite}
+.rc{animation:rc 12s infinite}
+.rd{animation:rd 12s infinite}
+.re{animation:re 12s infinite}
+.rf{animation:rf 12s infinite}
+.rg{animation:rg 12s infinite}
+.rh{animation:rh 12s infinite}
+.ri{animation:ri 12s infinite}
+.rj{animation:rj 12s infinite}
+@keyframes h1{0%,16.7%{opacity:0}18.7%,42.4%{opacity:1}44.1%,100%{opacity:0}}
+@keyframes h2{0%,16.7%,18.7%,44.1%{opacity:0}45.8%,67.8%{opacity:1}69.5%,100%{opacity:0}}
+@keyframes h3{0%,16.7%,18.7%,69.5%{opacity:0}71.2%,94.9%{opacity:1}96.6%,100%{opacity:0}}
+@keyframes r1{0%,16.7%{opacity:1}18.7%,20.4%{opacity:0}22.1%,100%{opacity:1}}
+@keyframes r2{0%,16.7%{opacity:1}18.7%,32.2%{opacity:0}33.9%,100%{opacity:1}}
+@keyframes rb{0%,16.7%{opacity:1}18.7%,45%{opacity:0}46.6%,100%{opacity:1}}
+@keyframes rc{0%,16.7%{opacity:1}18.7%,48.3%{opacity:0}50%,100%{opacity:1}}
+@keyframes rd{0%,16.7%{opacity:1}18.7%,51.7%{opacity:0}53.4%,100%{opacity:1}}
+@keyframes re{0%,16.7%{opacity:1}18.7%,55.1%{opacity:0}56.8%,100%{opacity:1}}
+@keyframes rf{0%,16.7%{opacity:1}18.7%,58.5%{opacity:0}60.2%,100%{opacity:1}}
+@keyframes rg{0%,16.7%{opacity:1}18.7%,61.9%{opacity:0}63.6%,100%{opacity:1}}
+@keyframes rh{0%,16.7%{opacity:1}18.7%,72.1%{opacity:0}73.7%,100%{opacity:1}}
+@keyframes ri{0%,16.7%{opacity:1}18.7%,78%{opacity:0}79.7%,100%{opacity:1}}
+@keyframes rj{0%,16.7%{opacity:1}18.7%,83.9%{opacity:0}85.6%,100%{opacity:1}}
+@media (prefers-reduced-motion:reduce){*{animation:none!important}}
+</style>
+<rect width="900" height="300" fill="#141618"/>
+
+<text x="32" y="50" class="serif" font-size="28" fill="#e4dfd4">successful-meetings</text>
+<text x="297" y="50" class="sans" font-size="13.5" fill="#a9adb2">A portable agent skill for meeting prep, follow-up notes, and meeting audits.</text>
+
+<g>
+<text x="32" y="88" class="sans lab" fill="#a39bbd">1 · A 60 MINUTE ASK</text>
+<rect x="32" y="98" width="250" height="152" rx="3" fill="#1b1e21" stroke="#2e3237"/>
+<rect class="hl h1" x="32" y="98" width="250" height="152" rx="3" stroke="#a39bbd"/>
+<text x="44" y="115" class="mono" font-size="10" fill="#8b9096">examples/example-run.md · example</text>
+<line x1="33" y1="123" x2="281" y2="123" stroke="#2e3237"/>
+<g class="r1"><rect x="44" y="132" width="226" height="94" rx="10" fill="#2a2e33"/><text x="56" y="151" class="sans" font-size="10.5" fill="#e4dfd4">We need to decide whether to consolidate</text><text x="56" y="165" class="sans" font-size="10.5" fill="#e4dfd4">our three onboarding email series into</text><text x="56" y="179" class="sans" font-size="10.5" fill="#e4dfd4">one. I was thinking</text><text x="150" y="179" class="sans" font-size="10.5" fill="#e4dfd4">60 minutes</text><text x="208" y="179" class="sans" font-size="10.5" fill="#e4dfd4">Thursday</text><text x="56" y="193" class="sans" font-size="10.5" fill="#e4dfd4">with the lifecycle team, engineering, and</text><text x="56" y="207" class="sans" font-size="10.5" fill="#e4dfd4">someone from support.</text></g>
+<rect class="r2" x="146.5" y="168" width="58.5" height="15" fill="none" stroke="#c8963e" stroke-dasharray="3 2"/>
+<text x="32" y="272" class="sans cap">An hour booked, and no one has a role yet.</text>
+</g>
+
+<g>
+<text x="302" y="88" class="sans lab" fill="#c8963e">2 · SIX PREP STEPS</text>
+<rect x="302" y="98" width="270" height="152" rx="3" fill="#17191c" stroke="#2e3237"/>
+<rect class="hl h2" x="302" y="98" width="270" height="152" rx="3" stroke="#c8963e"/>
+<text x="314" y="115" class="mono" font-size="10" fill="#8b9096">examples/example-run.md · example</text>
+<line x1="303" y1="123" x2="571" y2="123" stroke="#2e3237"/>
+<g class="rb"><text x="314" y="143" class="mono" font-size="10" fill="#e4dfd4">1. Justify the meeting.</text></g>
+<g class="rc"><text x="314" y="160" class="mono" font-size="10" fill="#e4dfd4">2. Classify it.</text><text x="472" y="160" class="sans" font-size="10.5" fill="#a9adb2">Mission-oriented.</text></g>
+<g class="rd"><text x="314" y="177" class="mono" font-size="10" fill="#e4dfd4">3. Curate attendees.</text><text x="472" y="177" class="sans" font-size="10.5" fill="#a9adb2">resolves to four</text></g>
+<g class="re"><text x="314" y="194" class="mono" font-size="10" fill="#e4dfd4">4. Timebox it.</text><text x="472" y="194" class="sans" font-size="10.5" fill="#a9adb2">Cut to 30.</text></g>
+<g class="rf"><text x="314" y="211" class="mono" font-size="10" fill="#e4dfd4">5. Build the agenda</text></g>
+<g class="rg"><text x="314" y="228" class="mono" font-size="10" fill="#e4dfd4">6. Attach the questions.</text><text x="472" y="228" class="sans" font-size="10.5" fill="#a9adb2">Four questions</text></g>
+<text x="302" y="272" class="sans cap">Four roles, half the time.</text>
+</g>
+
+<g>
+<text x="592" y="88" class="sans lab" fill="#93ad8c">3 · A 30 MINUTE PACKET</text>
+<rect x="592" y="98" width="276" height="152" rx="3" fill="#17191c" stroke="#2e3237"/>
+<rect class="hl h3" x="592" y="98" width="276" height="152" rx="3" stroke="#93ad8c"/>
+<text x="604" y="115" class="mono" font-size="10" fill="#8b9096">examples/example-run.md · example</text>
+<line x1="593" y1="123" x2="867" y2="123" stroke="#2e3237"/>
+<g class="rh"><text x="604" y="143" class="mono" font-size="10" fill="#e4dfd4" font-weight="700">Agenda: Onboarding Series Consolidation</text><text x="604" y="158" class="mono" font-size="10" fill="#e4dfd4">Date and time: Thu Aug 6, 9:00 to 9:30 MT</text></g>
+<g class="ri"><text x="604" y="173" class="mono" font-size="10" fill="#e4dfd4">Final 5 min: decisions, owners, dates</text></g>
+<g class="rj"><line x1="604" y1="185.5" x2="856" y2="185.5" stroke="#2e3237"/><text x="604" y="203" class="mono" font-size="10" fill="#a9adb2">Assumptions, correct any that are wrong:</text><text x="604" y="218" class="mono" font-size="10" fill="#93ad8c">- 30 minutes, not the 60 you offered.</text></g>
+<text x="592" y="272" class="sans" font-size="11.5" fill="#93ad8c">A 30 minute packet, ready for the invite.</text>
+</g>
+</svg>
